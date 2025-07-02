@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Good Night</title>
+  <style>
+    /* Set the background image of the entire page */
+    body {
+      background-image: url('https://c.tenor.com/MwL262AI05gAAAAC/gonjiam-gonjiam-haunted-asylum.gif');
+      background-size: cover; /* Ensures the image covers the entire background */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents repeating the image */
+      margin: 0; /* Removes default margin */
+      height: 100vh; /* Makes sure the body takes up the full viewport height */
+      color: white; /* Sets text color to white for better visibility */
+    }
+
+    /* Style for the heading */
+    h1 {
+      color: red;
+      font-size: 100px;
+      text-align: center; /* Centers the heading on the page */
+      padding-top: 20%; /* Gives space from the top */
+      
+      /* Apply animation to move the text */
+      animation: moveText 5s linear infinite; /* "moveText" is the name of the animation */
+    }
+
+    /* Define the animation */
+    @keyframes moveText {
+      0% {
+        transform: translateX(-100%); /* Starts the text off-screen to the left */
+      }
+      50% {
+        transform: translateX(50%); /* Moves the text to the middle of the screen */
+      }
+      100% {
+        transform: translateX(100%); /* Moves the text off-screen to the right */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>I SEE YOU</h1>
+
+</body>
+</html>
